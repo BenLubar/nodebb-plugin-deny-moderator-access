@@ -1,0 +1,10 @@
+{
+	"id": "nodebb-plugin-deny-moderator-access",
+	"name": "Deny Moderator Access",
+	"description": "Block global moderators from seeing categories they aren't allowed into",
+	"url": "https://github.com/BenLubar/nodebb-plugin-deny-moderator-access",
+	"library": "./index.js",
+	"hooks": [
+		{"hook": "filter:user.isModerator", "method": "filterModerator"}
+	]
+}
