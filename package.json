@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-deny-moderator-access",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Block global moderators from seeing categories they aren't allowed into",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/BenLubar/nodebb-plugin-deny-moderator-access#readme",
   "dependencies": {
     "async": "^2.0.0-rc.1"
+  },
+  "nbbpm": {
+    "compatibility": "^1.0.0"
   }
 }
